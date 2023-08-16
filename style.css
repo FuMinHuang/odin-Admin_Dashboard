@@ -46,8 +46,8 @@ html, body {
 }
 
 /* Header Icon */
-.iconify {
-    font-size: 200%;
+.header .iconify {
+    font-size: 30px;
 }
 
 #magnify {
@@ -124,6 +124,39 @@ input[type="search"] {
 
 /* Sidebar */
 .sidebar {
+    display: grid;
     background-color: #1892d3;
     grid-row: 1 / -1;
+    grid-template-rows: 1fr 12fr;
+    color: #ffffff;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.sidebar-header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-size: 36px;
+    align-items: center;
+    grid-gap: 15px;
+}
+
+.sidebar-header .iconify {
+    justify-self: center;
+    font-size: 68px;
+}
+
+.navagation {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(18, 1fr);
+    padding-top: 60px;
+    font-size: 28px;
+    grid-gap: 15px;
+    align-items: center;
+}
+
+.navagation .iconify {
+    justify-self: center;
+    font-size: 32px;
 }
