@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%
+}
+
+.container {
+    height: 100%;
+    background-color: #e1e8f0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header {
+    display: grid;
+    background-color: #ffffff;
+    font-weight: 900;
+}
+
+/* Header Top */
+.header-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+/* Header Top Left */
+.header-top-left {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+/* Header Top Right */
+.header-top-right {
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+    align-items: center;
+}
+
+/* Header Icon */
+.iconify {
+    font-size: 200%;
+}
+
+#magnify {
+    justify-self: right;
+    padding-right: 40px;
+}
+
+#bell {
+    justify-self: right;
+    padding-right: 20px;
+}
+
+/* Searchbar */
+input[type="search"] {
+    appearance: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #e1e8f0;
+    height: 40px;
+  }    
+
+/* Header User */
+.userphoto {
+    justify-self: center;
+}
+
+.userphoto {
+    border-radius: 50%;
+}
+
+.header-top-right .username {
+    justify-self: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* Header Bottom */
+.header-bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.header-bottom-left {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.header-bottom-username{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: left;
+}
+.header-bottom-username .username {
+    font-size: 30px;
+}
+
+.header-bottom-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn {
+    border:none;
+    border-radius: 50px;
+    height: 50px;
+    background-color: #1892d3;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    width: 120px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #1892d3;
+    grid-row: 1 / -1;
+}
