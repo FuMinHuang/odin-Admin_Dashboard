@@ -34,7 +34,7 @@ html, body {
 /* Header Top Left */
 .header-top-left {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 7fr;
     align-items: center;
 }
 
@@ -52,7 +52,7 @@ html, body {
 
 #magnify {
     justify-self: right;
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 #bell {
@@ -93,8 +93,9 @@ input[type="search"] {
 
 .header-bottom-left {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     align-items: center;
+    padding-left: 50px;
 }
 
 .header-bottom-username{
@@ -159,4 +160,50 @@ input[type="search"] {
 .navagation .iconify {
     justify-self: center;
     font-size: 32px;
+}
+
+/* Main Content */
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 80px;
+}
+
+.main-content-left {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+.main-content-left-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #ffffff;
+}
+
+.main-content-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-content-right-top {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+.main-content-right-top-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #ffffff;
+}
+
+.main-content-right-bottom {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+.main-content-right-bottom-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: #ffffff;
 }
