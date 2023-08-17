@@ -22,6 +22,8 @@ html, body {
     display: grid;
     background-color: #ffffff;
     font-weight: 900;
+        box-shadow: 3px 5px 10px lightgray;
+
 }
 
 /* Header Top */
@@ -166,7 +168,7 @@ input[type="search"] {
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
     margin-left: 30px;
     margin-right: 40px;
 }
@@ -208,6 +210,7 @@ input[type="search"] {
     border-left-width: 10px;
     border-left-color: #f1b329;
     color: #636363;
+    box-shadow: 3px 5px 10px lightgray;
 }
 
 .main-content-left-body p::first-line {
@@ -220,16 +223,12 @@ input[type="search"] {
 .main-content-right {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    
 }
 
 .main-content-right .main-content-header {
     align-items: end;
     padding-bottom: 15px;
-}
-
-.main-content-right-top-body {
-    font-size: 14px;
-    color: #636363;
 }
 
 .main-content-right-top-body p::first-line {
@@ -249,26 +248,53 @@ input[type="search"] {
     grid-template-rows: 1fr 1fr 1fr;
     background-color: #ffffff;
     border-radius: 10px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 35px;
     padding-right: 30px;
     padding-bottom: 30px;
     align-items: center;
+    font-size: 14px;
+    color: #636363;
+    box-shadow: 3px 5px 10px lightgray;
 }
-
 
 .main-content-right-bottom {
     display: grid;
     grid-template-rows: 85px 1fr;
+    margin-top: 10px;
 }
 
 .main-content-right-bottom-body {
     display: grid;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: #ffffff;
     border-radius: 10px;
     padding-top: 30px;
-    padding-left: 35px;
+    padding-left: 15px;
     padding-right: 30px;
     padding-bottom: 30px;
+    box-shadow: 3px 5px 10px lightgray;
+    align-items: center;
 }
+
+.main-content-right-bottom-body p{
+    font-size: 18px;
+    color: #636363;
+}
+
+.main-content-right-bottom p::first-line {
+    font-size: 16px;
+    color: black;
+    line-height: 150%;
+}
+
+#pborder {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
