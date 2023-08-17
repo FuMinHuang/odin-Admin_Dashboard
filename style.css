@@ -12,7 +12,7 @@ html, body {
     background-color: #e1e8f0;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 4.2fr;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -167,18 +167,54 @@ input[type="search"] {
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin-bottom: 80px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.main-content-header {
+    display: grid;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .main-content-left {
     display: grid;
-    grid-template-rows: 80px 1fr;
+    grid-template-rows: 85px 1fr;
+    margin-right: 30px;
+}
+
+.main-content-left .main-content-header {
+    align-items: end;
+    padding-bottom: 15px;
 }
 
 .main-content-left-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    background-color: #e1e8f0;
+    grid-gap: 35px;  
+    font-size: 18px;
+}
+
+.main-content-left-body .block {
     background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: #f1b329;
+    color: #636363;
+}
+
+.main-content-left-body p::first-line {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 200%;
+    color: black;
 }
 
 .main-content-right {
@@ -186,24 +222,53 @@ input[type="search"] {
     grid-template-rows: 1fr 1fr;
 }
 
+.main-content-right .main-content-header {
+    align-items: end;
+    padding-bottom: 15px;
+}
+
+.main-content-right-top-body {
+    font-size: 14px;
+    color: #636363;
+}
+
+.main-content-right-top-body p::first-line {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 200%;
+    color: black;
+}
+
 .main-content-right-top {
     display: grid;
-    grid-template-rows: 80px 1fr;
+    grid-template-rows: 85px 1fr;
 }
 
 .main-content-right-top-body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    align-items: center;
 }
+
 
 .main-content-right-bottom {
     display: grid;
-    grid-template-rows: 80px 1fr;
+    grid-template-rows: 85px 1fr;
 }
 
 .main-content-right-bottom-body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
